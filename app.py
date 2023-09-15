@@ -11,6 +11,14 @@ def index():
 def aboutpage(): 
     return render_template('about.html')
 
+
+df = pd.read_csv('https://raw.githubusercontent.com/c-susan/azure_flask_deployment/main/data/OPIOID_TREATMENT_PROGRAM_PROVIDERS_08282023.csv')
+@app.route('/data')
+def data(data=df):
+    data = data.sample(15)
+    return render_template('data.html', data=data)
+
+
 if __name__ == '__main__':
     app.run(
         debug=True,

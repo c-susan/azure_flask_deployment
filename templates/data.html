@@ -7,9 +7,15 @@
         <table class="table-auto">
             <thead>
                 <tr>
-                    <th class="px-4 py-2">HospCode</th>
-                    <th class="px-4 py-2">Code</th>
-                    <th class="px-4 py-2">Description</th>
+                    <th class="px-4 py-2">NPI</th>
+                    <th class="px-4 py-2">Provider Name</th>
+                    <th class="px-4 py-2">Address Line 1</th>
+                    <th class="px-4 py-2">Address Line 2</th>
+                    <th class="px-4 py-2">City</th>
+                    <th class="px-4 py-2">State</th>
+                    <th class="px-4 py-2">Zip</th>
+                    <th class="px-4 py-2">Medicare ID Effective Date</th>
+                    <th class="px-4 py-2">Phone</th>                    
                 </tr>
             </thead>
             <tbody>
@@ -18,6 +24,13 @@
                     <td class="border px-4 py-2">{{ data[0] }}</td>
                     <td class="border px-4 py-2">{{ data[1] }}</td>
                     <td class="border px-4 py-2">{{ data[2] }}</td>
+                    <td class="border px-4 py-2">{{ data[3] }}</td>
+                    <td class="border px-4 py-2">{{ data[4] }}</td>
+                    <td class="border px-4 py-2">{{ data[5] }}</td>
+                    <td class="border px-4 py-2">{{ data[6] }}</td>
+                    <td class="border px-4 py-2">{{ data[7] }}</td>
+                    <td class="border px-4 py-2">{{ data[8] }}</td>
+                    <td class="border px-4 py-2">{{ data[9] }}</td>
                 </tr>
                 {% endfor %}
             </tbody>
