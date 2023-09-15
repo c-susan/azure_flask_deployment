@@ -23,16 +23,36 @@
         </nav>
     </header>
 
-    <section class="mb-6">
-        <h2 class="text-xl mb-2">Welcome to My Healthcare App!</h2>
-        <p> </p>
-    </section>
-
 
 
     <main class="p-4">
 
-        {% block content %}{% endblock %}
+        {% block content %}
+        <section class="mb-6">
+            <h2 class="text-xl mb-2">Welcome to My Healthcare App</h2>
+            <p> </p>
+        </section>
+
+        <section class="mb-6">
+            <p>This application was designed to view information about providers enrolled in Medicare under the Opioid Treatment Program. </p>
+        </section>
+
+        <br/>
+
+        <section>
+            <h2 class="text-xl mb-4"> Reference</h2>
+            <p>The dataset was taken from the Centers for Medicare and Medicaid Services (CMS).
+                <br>
+                <br>
+                Centers for Medicare and Medicaid Services. (2023, September 11). <i>Opioid Treatment Program Providers.</i> Data.CMS.gov. 
+                <br>
+                Retrieved September 15, 2023, from https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers
+            </p> 
+            
+        </section>
+
+
+        {% endblock %}
 
     </main>
 
