@@ -58,9 +58,9 @@ if __name__ == '__main__':
 
 **4.** To ensure the correct Azure subscription is enabled, type ```az account list --output table```. After the output is displayed, type ```az account set --subscription``` plus the subscription ID for the **Azure for Students** account. 
 
-**5.** In the terminal, type ```az webapp up --name <app-name> --runtime PYTHON:3.9 --sku B1```. Replace the ```<app-name>``` with you app name and click enter. 
+**5.** In the terminal, type ```az webapp up --name <app-name> --runtime PYTHON:3.9 --sku B1```. Replace the ```<app-name>``` with your app name and click enter. 
 
-**6.** The terminal will show that eh webapp does not exist and will create it for you. 
+**6.** The terminal will show that the webapp does not exist and will create it for you. 
 
 **7.** Go into into your Azure account, search for the resource **App Services**. Click into the webapp name that appears and click the link under **Default domain** to access your application. 
 
