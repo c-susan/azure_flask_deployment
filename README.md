@@ -1,7 +1,7 @@
 # azure_flask_deployment
 This repo is an introduction to Flask deployment using Microsoft Azure. Includes a step-by-step guide of how I set up the application and deployed it using Azure.
 
-Azure Deployment URL: susan-504-flask.azurewebsites.net
+Azure Deployment URL: <a href="https://susan-504-flask.azurewebsites.net/" target="_blank">susan-504-flask.azurewebsites.net</a>
 
 # Setting Up the Application
 **1.** Created a Github repository called ```azure_flask_deployment``` that contained a ```README.md file```. Cloned the repo in the Google Shell environement using the command ```git clone```. 
